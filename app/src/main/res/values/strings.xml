@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Arqui1Grupo13</string>
+    <string name="app_title">Grupo 13 Tiles</string>
+    <string name="group_name">Grupo 13</string>
+    <string name="project_name">Proyecto 1</string>
+    <string name="project_name_group">Grupo 13 Proyecto 1</string>
+    <string name="course_name">Arquitectura de Computadores 1</string>
+    <string name="score">Score : </string>
+</resources>

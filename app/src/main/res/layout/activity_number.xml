@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_marginTop="20dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/ic_pianoelectric"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:id="@+id/score"
+                android:textSize="45dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/score"/>
+            <TextView
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:id="@+id/txt_number"
+                android:textSize="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="top"
+            android:layout_marginTop="20dp">
+            <ImageButton
+                android:layout_margin="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:src="@drawable/border"
+                android:id="@+id/btn_key_1"
+                android:textSize="45dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:tag="txt_1"/>
+            <ImageButton
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                android:layout_weight="1"
+                android:id="@+id/btn_key_2"
+                android:src="@drawable/border"
+                android:textSize="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:tag="txt_2"/>
+            <ImageButton
+                android:layout_marginTop="0dp"
+                android:layout_margin="1dp"
+                android:layout_gravity="center"
+                android:id="@+id/btn_key_3"
+                android:src="@drawable/border"
+                android:background="@color/white"
+                android:textSize="45dp"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:tag="txt_3"/>
+            <ImageButton
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:layout_margin="1dp"
+                android:background="@color/white"
+                android:id="@+id/btn_key_4"
+                android:src="@drawable/border"
+                android:textSize="45dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:tag="txt_4"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
